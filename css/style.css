@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Helvetica-bold;
+    src: url(../fonts/Helvetica\ Neue\ Bold.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-light;
+    src: url(../fonts/Helvetica\ Neue\ Light.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-medium;
+    src: url(../fonts/Helvetica\ Neue\ Medium.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica\ Neue.ttf);
+}
+
+@font-face {
+    font-family: Kano;
+    src: url(../fonts/Kano\ regular\ Regular.ttf);
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 5.25rem;
+    margin: 2rem 4rem 1.45rem;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px 0 0;
+    font-size: 16.5px;
+}
+
+ a {
+    text-decoration: none;
+    font-family: Helvetica-bold;
+    color: black;
+}
+
+ .links button {
+    background-color: #007bff;
+    padding: 18px 30px;
+    border-radius: 10px;
+    border:none;    
+}
+
+#buttonlink {
+    color:white;
+}
+
+.homebannerdiv{
+    position: relative;
+    color: white;
+}
+
+.homebannerdiv h2{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    font-family: Helvetica-light;
+    font-size: 1.5vw;
+}
+
+.homebannerdiv p{
+    position: absolute;
+    top: 19%;
+    left: 4%;
+    font-family: Helvetica-bold;
+    font-size: 4.3vw;
+    width: 50%;
+    opacity: 0.9;
+ }
+
+ .homebannerdiv #founder{
+    position: absolute;
+    top: unset !important;
+    left: unset !important;
+    right: 2% !important;
+    bottom: 10% !important;
+    font-family: Helvetica-light;
+    font-size: 1.6vw;   
+}
+
+.homebannerdiv #name {
+    position: absolute;
+    top: unset !important;
+    left: unset !important;
+    right: 2% !important;
+    bottom: 16% !important;
+    font-family: Helvetica;
+    font-size: 1.6vw;   
+}
+
+.maincontent {
+    display:flex;
+}
+.maincontent .leftdiv {
+    
+    width: 54.5%;
+    margin: 2.2rem 3rem;
+}
+
+.maincontent .leftdiv h2 {
+    color:#007bff; 
+    font-family: Helvetica;
+    font-size: 1.6vw;   
+}
+
+.maincontent .leftdiv .executive {
+    font-family: Helvetica-bold;
+    font-size: 3.1vw;
+    padding: 6px 0;
+
+}
+
+#para1 {
+    font-family: 'Helvetica';
+    margin: 10px 0 20px;
+    font-size: 1.4vw;
+}
+
+#paraheading {
+    font-family: 'Helvetica-bold';
+    font-size: 3.5vh;
+    display: block;
+}
+
+
+.rightdiv {
+    padding: 12.5vw 3vw 0 5vw;
+  width: 45.5%;
+}
+
+.rightdiv .box {
+    
+    padding: 5.5vw 3vw 5vw;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4.5px 7.5px 0px grey;
+}
+
+.rightdiv .box .heading {
+    font-size: 2.2vw;
+    font-family: 'Helvetica-bold';
+}
+
+.listitem {
+    padding: 1.5vw 0 0 0vw;
+    font-family: 'Helvetica';
+    font-size: 1.4vw;
+    color: #3e3d3d;
+}
+.listitem ul{
+    list-style-type: none;
+}
+
+.listitem ul li{
+    margin: 0px 0 4px 0;
+    align-items: self-end;
+    display: flex;
+}
+
+li::before {
+    content: "•";
+    color: #007bff;
+    font-size: 3rem;
+    margin: 0rem 1rem 0 0rem;
+    line-height: 0.5;
+}
+.bigbutton{
+    justify-content: center;
+    display: flex;
+    padding: 7vw 0;
+}
+.bigbutton button{
+    background-color: #007bff;
+    padding: 25px 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;  
+}
+
+.lastsecondimagediv{
+    position: relative;
+}
+
+.lastsecondimagediv .imagecontent {
+    position: absolute;
+    left: 53%;
+    color: white;
+    width: 43.5%;
+    top: 2vw;
+}
+
+.lastsecondimagediv .imagecontent h1{
+    font-size: 3vw;
+    font-family: 'Helvetica-bold';
+    margin: 1.2vw 0;
+}
+
+.lastsecondimagediv .imagecontent p{
+    font-size: 1.4vw;
+    font-family: 'Helvetica-light';
+    margin: 1.7vw 0;
+}
+
+.footer{
+    text-align: center;
+    background-color: #007bff;
+    margin-top: 3rem;
+    padding: 0 0 3rem 0;
+}
+.footer img {
+    padding: 3rem 0 2rem 0;
+    width: 13.5%;
+}
+.footer p{
+    font-family: kano;
+    color: white;
+    font-size: 1.5rem;
+}
